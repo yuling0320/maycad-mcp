@@ -1,0 +1,21 @@
+{
+  "name": "maycad-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP tools for native MayCAD profile scenes",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test test/scene.test.mjs test/mcp.test.mjs",
+    "demo": "node scripts/demo.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.4.0",
+    "@modelcontextprotocol/server": "2.4.0",
+    "@xmldom/xmldom": "^0.9.12",
+    "zod": "^4.6.7"
+  }
+}
