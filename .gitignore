@@ -1,0 +1,16 @@
+node_modules/
+.pnpm-store/
+test-output/
+*.log
+runtime/
+dist/
+codex.generated.toml
+mcp.generated.json
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+scripts/catalog-inspect.py
+scripts/read-py27-metadata.py
+models/**
