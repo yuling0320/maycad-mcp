@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "maycad": {
+      "command": "node",
+      "args": ["D:/Tools/MayCAD-MCP/src/server.mjs"],
+      "env": {"MAYCAD_WORKSPACE": "D:/Tools/MayCAD-MCP"}
+    }
+  }
+}
